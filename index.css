@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#barrapreta{
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+    padding: 18px;
+    position: sticky;
+    top: 0; 
+}
+
+.barraletras{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family: "Quicksand", sans-serif;
+   
+}
+
+#elit{
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#face{
+    height: 12px;
+    margin-top: 49px;
+    margin-left: 15px;
+}
+
+#x{
+    height: 12px;
+    margin-left: 45px;
+    margin-top: -13px;
+}
+
+#insta{
+    height: 12px;
+    margin-left: 80px;
+    margin-top: -12px;
+}
+
+main{
+    width: 87%;
+    background-image: url(img_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 64px;
+    color: white;
+    flex-direction: column;
+}
+
+.titulo{
+    text-align: center;
+    font-family: "Oswald", arial;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 65px;
+}
+
+.letras{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+button{
+    background-color: #df0e62;
+    margin-top: 50px;
+
+    width: 165px;
+    height: 55px;
+    border-radius: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+
+.galeria{
+    background-color: black;
+    justify-content: space-between;
+}
+
+.box{
+    display: inline-table;
+    width: 3%;
+    min-width: 33%;
+}
+
+.fts{
+    flex-wrap: wrap;
+    object-fit: cover;
+    overflow: hidden;
+    height: 350px;
+    width: 100%;
+    min-width: 33%;
+}
+
+.testimonial{
+    padding: 100px;
+    height: 720px;
+    background-color: black;
+}
+
+#titulo2{
+    color: white;
+    font-size: 65px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    text-align: center;
+}
+
+#homem img{
+    width: 155px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 43%;
+}
+
+#nome{
+    color: white;
+    font-family: "Quicksand";
+    margin-top: 25px;
+    margin-left: 46.2%;
+}
+
+#lorema{
+    font-family: "Quicksand";
+    color: #808080;
+    width: 700px;
+    margin-top: 20px;
+    padding-left: 500px;
+    font-weight: 350;
+}
+
+.BIOGRAPHY{
+    background-color: #1a1a1a;
+    padding-left: 22%;
+}
+
+#titulo3{
+    color: white;
+    font-family: "Oswald";
+    font-size: 60px;
+    padding: 90px;
+    padding-bottom: 60px;
+}   
+
+#homem2{
+    padding-left: 90px;
+    width: 450px;    
+}
+
+.jed{
+    color: white;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 32px;
+    padding: 30px;
+    padding-left: 90px;
+}
+
+.lorem2{
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #808080;
+    padding-left: 90px;
+}
+
+a{
+    color: #df0e62;
+    font-style: none;
+
+}
+
+.lorem3{
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #808080;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+.joia{
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 20px;
+}
